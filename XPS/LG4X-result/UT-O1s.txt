@@ -1,0 +1,65 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/UT 18 Ap location T1 in image_UT18ApO1s_O1s.txt
+
+[[Fit results]]
+
+bg_shirley_k	0.0010645362028223193
+bg_shirley_const	7862.955028580078
+
+	v1
+amplitude	12167.412	
+center	532.78564	
+sigma	0.82912457	
+gamma	0.2035913	
+fwhm	2.1792777	
+height	4863.3213	
+fraction	nan	
+skew	nan	
+q	nan	
+
+[[LG4X parameters]]
+
+[[[100], 540.6485, 525.6485, 1486.69, 4.5, -0.6485], [['', 1e-06, '', 10.0, 0, 0.0010645362028223193, 0, 7862.955028580078, '', ''], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [0, 0.0, 0, 0.0, 0, 0.0, 0, 0.0, 0, 0.0], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 2], [0, 532.7857], [0, 12167.4125], [0, 0.2036], [0, 0.8291], [2, 0.02], [2, 0.0], [2, 0.0], [2, 0.0], [2, 0.026], [2, 1.0], [2, 0.7], [2, 1.0], ['', 0], [2, 0.1], ['', 0], [2, 0.5], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0]], [[0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('bg_shirley_k', <Parameter 'bg_shirley_k', value=0.0010651333179338973, bounds=[0:inf]>), ('bg_shirley_const', <Parameter 'bg_shirley_const', value=7916.9582429253705, bounds=[0:inf]>), ('v1_amplitude', <Parameter 'v1_amplitude', value=11203.7694, bounds=[0.0:inf]>), ('v1_center', <Parameter 'v1_center', value=532.7857, bounds=[-inf:inf]>), ('v1_sigma', <Parameter 'v1_sigma', value=0.9376, bounds=[0:inf]>), ('v1_gamma', <Parameter 'v1_gamma', value=0.2, bounds=[0:inf]>), ('v1_fwhm', <Parameter 'v1_fwhm', value=2.4295348941544455, bounds=[-inf:inf], expr='1.0692*v1_gamma+sqrt(0.8664*v1_gamma**2+5.545083*v1_sigma**2)'>), ('v1_height', <Parameter 'v1_height', value=4053.0543855221995, bounds=[-inf:inf], expr='(v1_amplitude/(max(1e-15, v1_sigma*sqrt(2*pi))))*wofz((1j*v1_gamma)/(max(1e-15, v1_sigma*sqrt(2)))).real'>), ('v1_center_diff', <Parameter 'v1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('v1_amp_ratio', <Parameter 'v1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('v1_gaussian_ratio', <Parameter 'v1_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('v1_lorentzian_ratio', <Parameter 'v1_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>)])
+
+[[Model]]
+    (Model(shirley, prefix='bg_shirley_') + Model(voigt, prefix='v1_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 43
+    # data points      = 151
+    # variables        = 6
+    chi-square         = 100.079147
+    reduced chi-square = 0.69020102
+    Akaike info crit   = -50.1090921
+    Bayesian info crit = -32.0054131
+    R-squared          = 0.99999966
+[[Variables]]
+    bg_shirley_k:         0.00106454 +/- 1.0858e-04 (10.20%) (init = 0.001065133)
+    bg_shirley_const:     7862.95503 +/- 15.1652741 (0.19%) (init = 7916.958)
+    v1_amplitude:         12167.4125 +/- 199.725685 (1.64%) (init = 11203.77)
+    v1_center:            532.785672 +/- 0.00620305 (0.00%) (init = 532.7857)
+    v1_sigma:             0.82912459 +/- 0.02199837 (2.65%) (init = 0.9376)
+    v1_gamma:             0.20359130 +/- 0.03755523 (18.45%) (init = 0.2)
+    v1_fwhm:              2.17927756 +/- 0.01629807 (0.75%) == '1.0692*v1_gamma+sqrt(0.8664*v1_gamma**2+5.545083*v1_sigma**2)'
+    v1_height:            4863.32139 +/- 34.0721285 (0.70%) == '(v1_amplitude/(max(1e-15, v1_sigma*sqrt(2*pi))))*wofz((1j*v1_gamma)/(max(1e-15, v1_sigma*sqrt(2)))).real'
+    v1_center_diff:       0.1 (fixed)
+    v1_amp_ratio:         0.5 (fixed)
+    v1_gaussian_ratio:    1 (fixed)
+    v1_lorentzian_ratio:  1 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(v1_sigma, v1_gamma)             = -0.955
+    C(v1_amplitude, v1_gamma)         = 0.926
+    C(v1_amplitude, v1_sigma)         = -0.822
+    C(bg_shirley_const, v1_amplitude) = -0.746
+    C(bg_shirley_const, v1_gamma)     = -0.681
+    C(bg_shirley_const, v1_sigma)     = 0.590
+    C(bg_shirley_k, bg_shirley_const) = -0.498
+    C(bg_shirley_k, v1_center)        = -0.354
+    C(bg_shirley_const, v1_center)    = 0.188

@@ -1,0 +1,361 @@
+<Application>
+Name=VersaStudio
+Version=2.54.2.0
+LoggedIn=Security Disabled
+Language [VersaStudio]=English (United States) [en-US]
+Language [Region and Language]=English (United States) [en-US]
+Language [Windows Operating System]=English (United States) [en-US]
+</Application>
+
+<Action0>
+Limits2,Value=0
+Limits2,Direction=<
+Limits2,Limits=None
+Limits1,Value=0
+Limits1,Direction=<
+Limits1,Limits=None
+RotationRateConversionFactor=0.00025
+Measured Open Circuit=-237.084 mV
+E2 Cell to Use=External
+Remeasure OC Per Action=No
+Mass (g)=0
+Equivalent Weight (g)=0
+Density (g/ml)=0
+Working Electrode Area (cm2)=1
+RDE Speed (Volts)=0
+Working Electrode Type=Unspecified
+Reference Electrode=(unspecified) (0 Volts)
+Segments=0
+Name=Common
+Comment=Enter comments about the experiment here.
+</Action0>
+
+<Instrument>
+Type=VersaSTAT4
+Model=-400
+SN=9110236
+Options=FRA, EIS <Filter:Normal>
+Firmware=2.54,2.54,2.54
+BoosterDetails=None
+</Instrument>
+
+<Experiment>
+TimeAcquired=1:54:42 AM
+DateAcquired=Thursday, February 14, 1980
+SelectionEnd=0
+SelectionStart=0
+Height=661
+Width=712
+LocY=0
+LocX=0
+Show=True
+</Experiment>
+
+<DataView>
+ShowDCLabels=False
+ShowACLabels=False
+ShowDataFilter=False
+DataReduction=1
+ShowEvery=100
+Decimate=False
+AutomaticDecimation=False
+ViewSegments=All Segments
+Height=328
+Width=728
+LocY=0
+LocX=0
+Show=True
+</DataView>
+
+<StripView>
+Height=240
+Width=344
+LocY=0
+LocX=0
+Show=False
+</StripView>
+
+<Overlays>
+Height=438
+Width=294
+LocY=0
+LocX=0
+Show=False
+</Overlays>
+
+<Action1>
+Cell to Use=External
+Leave Cell ON=No
+LCI Bandwidth Limit=Auto
+Bandwidth Limit=Auto
+Electrometer Mode=Single Ended
+VoltageRange=+/-6V
+Current Range=Auto
+Scan Rate (V/s)=.005
+Measurement Delay (s)=0
+Data Quality=1
+Points Per Decade=10
+Number of Points=30
+Point Spacing=Logarithmic
+Final Potential (V),Versus=vs OC
+Final Potential (V),Value=0
+Potential (V),Versus=vs OC
+Potential (V),Value=-0.52
+Step or Scan=Step
+Amplitude (mV RMS)=10
+End Frequency (Hz)=1
+Start Frequency (Hz)=100000
+Segments=1
+ParentNode=Common
+Name=Potentiostatic EIS
+</Action1>
+
+<Segment1>
+Type=2
+Version=3
+Definition=Segment #, Point #, E(V), I(A), Elapsed Time(s), ADC Sync Input(V), Current Range, Status, E Applied(V), Frequency(Hz), E Real, E Imag, I Real, I Imag, Z Real, Z Imag, E2 Status, E2(V), E2 Real, E2 Imag, Z2 Real, Z2 Imag, ActionId, AC Amplitude, 0
+0,0,-0.757084,-0.05301726,1.142,-0.0006103609,3,19,0,100000,-0.004753816,-0.007706837,-0.001327607,-0.001290001,4.743135,1.19628,0,0,0,0,0,0,21,0.01
+0,1,-0.757084,-0.05301726,1.485,-0.0006103609,3,19,0,79432.82,-0.00945115,0.004299255,-0.001718795,0.001245026,4.78894,0.9675972,0,0,0,0,0,0,21,0.01
+0,2,-0.757084,-0.05301726,1.908,-0.0006103609,3,19,0,63095.73,0.006879623,0.008468085,0.00166852,0.001484938,4.821281,0.7843967,0,0,0,0,0,0,21,0.01
+0,3,-0.757084,-0.05301726,2.359,-0.0009155413,3,19,0,50118.72,0.003746861,0.01021624,0.001028579,0.001973592,4.848866,0.6285907,0,0,0,0,0,0,21,0.01
+0,4,-0.757084,-0.05301726,2.809,-0.0009155413,3,19,0,39810.72,-0.01033034,-0.003278651,-0.002170102,-0.0004482039,4.864822,0.5060678,0,0,0,0,0,0,21,0.01
+0,5,-0.757084,-0.05301726,3.238,-0.0006103609,3,19,0,31622.78,-0.002519993,0.01025373,-0.0003373074,0.002134505,4.868779,0.4112047,0,0,0,0,0,0,21,0.01
+0,6,-0.757084,-0.05301726,3.594,-0.0009155413,3,19,0,25118.87,-0.001660319,0.01042058,-0.0001958094,0.002144743,4.888592,0.3278186,0,0,0,0,0,0,21,0.01
+0,7,-0.757084,-0.05301726,3.88,-0.0006103609,3,19,0,19952.62,-0.004717311,0.009750791,-0.0008566284,0.002041282,4.886113,0.2604875,0,0,0,0,0,0,21,0.01
+0,8,-0.757084,-0.05301726,4.219,-0.0006103609,3,19,0,15848.93,-0.009249958,0.005182442,-0.001844017,0.001133346,4.894601,0.1978473,0,0,0,0,0,0,21,0.01
+0,9,-0.757084,-0.05301726,4.49,-0.0009155413,3,19,0,12589.25,-0.0009652147,0.01069977,-0.0001261525,0.002188168,4.898976,0.1586701,0,0,0,0,0,0,21,0.01
+0,10,-0.757084,-0.05301726,4.753,-0.0006103609,3,19,0,10000,-0.01075193,-0.00157019,-0.002197098,-0.0002634402,4.908813,0.1260805,0,0,0,0,0,0,21,0.01
+0,11,-0.757084,-0.05301726,5.011,-0.0006103609,3,19,0,7943.282,-0.01063485,0.002570432,-0.002154607,0.0005662336,4.91026,0.09742935,0,0,0,0,0,0,21,0.01
+0,12,-0.757084,-0.05301726,5.355,-0.0006103609,3,19,0,6309.573,-0.007502177,0.007363315,-0.001504533,0.001521501,4.912121,0.07343321,0,0,0,0,0,0,21,0.01
+0,13,-0.757084,-0.05301726,5.618,-0.0009155413,3,19,0,5011.873,0.009991603,0.003382006,0.002040053,0.0006674714,4.914077,0.04999898,0,0,0,0,0,0,21,0.01
+0,14,-0.757084,-0.05301726,5.878,-0.0006103609,3,19,0,3981.072,0.005075301,0.009278145,0.001044377,0.001880517,4.916341,0.03148689,0,0,0,0,0,0,21,0.01
+0,15,-0.757084,-0.05301726,6.158,-0.0009155413,3,19,0,3162.278,-0.007755437,-0.007206575,-0.001580171,-0.001460503,4.920108,0.01312826,0,0,0,0,0,0,21,0.01
+0,16,-0.757084,-0.05301726,6.425,-0.0006103609,3,19,0,2511.886,-0.006268615,0.008545186,-0.001272765,0.001735218,4.924783,0.0003026325,0,0,0,0,0,0,21,0.01
+0,17,-0.757084,-0.05301726,6.68,-0.0006103609,3,19,0,1995.262,0.001078866,0.0105577,0.000214727,0.002141008,4.932112,-0.009251688,0,0,0,0,0,0,21,0.01
+0,18,-0.757084,-0.05301726,6.954,-0.0006103609,3,19,0,1584.893,0.01043542,0.001996235,0.002111207,0.0004132518,4.938722,-0.02117306,0,0,0,0,0,0,21,0.01
+0,19,-0.757084,-0.05301726,7.232,-0.0006103609,3,19,0,1258.925,0.004310626,-0.009719712,0.0008840432,-0.001959159,4.946765,-0.0319161,0,0,0,0,0,0,21,0.01
+0,20,-0.757084,-0.05301726,7.511,-0.0003051804,3,19,0,1000,-0.009303506,-0.002582053,-0.001874495,-0.0005356566,4.952422,-0.03774078,0,0,0,0,0,0,21,0.01
+0,21,-0.757084,-0.05301726,7.809,-0.0009155413,3,19,0,794.3282,0.007035782,-0.006605865,0.001432481,-0.001318784,4.956312,-0.04855951,0,0,0,0,0,0,21,0.01
+0,22,-0.757084,-0.05301726,8.084,-0.0009155413,3,19,0,630.9573,0.004487563,-0.008552263,0.0009231468,-0.001709757,4.970237,-0.05889473,0,0,0,0,0,0,21,0.01
+0,23,-0.757084,-0.05301726,8.408,-0.0009155413,3,19,0,501.1872,0.003844554,-0.008865412,0.0007945161,-0.001769538,4.9813,-0.06395401,0,0,0,0,0,0,21,0.01
+0,24,-0.757084,-0.05301726,8.702,-0.0006103609,3,19,0,398.1072,-0.001169486,-0.009589852,-0.0002092956,-0.001924202,4.990869,-0.06492019,0,0,0,0,0,0,21,0.01
+0,25,-0.757084,-0.05301726,8.974,-0.0009155413,3,19,0,316.2278,-0.003963589,0.008809693,-0.0008164216,0.001747219,5.008558,-0.07183185,0,0,0,0,0,0,21,0.01
+0,26,-0.757084,-0.05301726,9.346,-0.0006103609,3,19,0,251.1886,-0.005906804,-0.007661185,-0.001150607,-0.001541547,5.028421,-0.07853623,0,0,0,0,0,0,21,0.01
+0,27,-0.757084,-0.05301726,9.638,-0.0009155413,3,19,0,199.5262,-0.009574568,-0.001370598,-0.001894471,-0.0003006227,5.041802,-0.07658201,0,0,0,0,0,0,21,0.01
+0,28,-0.757084,-0.05301726,9.94,-0.0006103609,3,19,0,158.4893,0.003764483,-0.008891197,0.000769221,-0.001751607,5.046576,-0.06705253,0,0,0,0,0,0,21,0.01
+0,29,-0.757084,-0.05301726,10.321,-0.0009155413,3,19,0,125.8925,-0.009121276,0.003198359,-0.001808179,0.0006045785,5.069167,-0.073914,0,0,0,0,0,0,21,0.01
+0,30,-0.757084,-0.05301726,10.67,-0.0006103609,3,19,0,100,0.00610432,0.00749861,0.001183031,0.001487588,5.086933,-0.05802852,0,0,0,0,0,0,21,0.01
+0,31,-0.757084,-0.05301726,11.091,-0.0006103609,3,19,0,79.43282,-0.003417928,-0.009040054,-0.000650493,-0.001784014,5.089213,-0.06021885,0,0,0,0,0,0,21,0.01
+0,32,-0.757084,-0.05301726,11.443,-0.0009155413,3,19,0,63.09573,-0.003395215,-0.009056767,-0.0006470946,-0.00178193,5.101703,-0.05271268,0,0,0,0,0,0,21,0.01
+0,33,-0.757084,-0.05301726,11.819,-0.0009155413,3,19,0,50.11872,-0.009051167,-0.003446564,-0.001759743,-0.0006971462,5.116378,-0.06836236,0,0,0,0,0,0,21,0.01
+0,34,-0.757084,-0.05301726,12.235,-0.0009155413,3,19,0,39.81072,0.009033285,0.003418653,0.001764271,0.0006806969,5.107447,-0.03285768,0,0,0,0,0,0,21,0.01
+0,35,-0.757084,-0.05301726,12.584,-0.0009155413,3,19,0,31.62278,0.005841298,-0.007704863,0.001151617,-0.001500453,5.111758,-0.03031639,0,0,0,0,0,0,21,0.01
+0,36,-0.757084,-0.05301726,12.967,-0.0009155413,3,19,0,25.11886,-0.009594764,0.00116034,-0.001872023,0.0002035021,5.132077,-0.06193903,0,0,0,0,0,0,21,0.01
+0,37,-0.757084,-0.05301726,13.381,-0.0009155413,3,19,0,19.95262,0.0004202047,-0.009668194,0.0001023648,-0.001887006,5.120574,-0.05509359,0,0,0,0,0,0,21,0.01
+0,38,-0.757084,-0.05301726,13.849,-0.0009155413,3,19,0,15.84893,0.002302173,0.009403419,0.0004273927,0.001826264,5.161326,-0.0527084,0,0,0,0,0,0,21,0.01
+0,39,-0.757084,-0.05301726,14.366,-0.0006103609,3,19,0,12.58925,0.008735966,-0.004148602,0.001711486,-0.0007898436,5.128626,-0.05267933,0,0,0,0,0,0,21,0.01
+0,40,-0.757084,-0.05301726,14.961,-0.0009155413,3,19,0,10,0.008244324,0.005069183,0.001585894,0.0009961822,5.167433,-0.04951297,0,0,0,0,0,0,21,0.01
+0,41,-0.757084,-0.05301726,15.646,-0.0009155413,3,19,0,7.943282,0.002865073,-0.009230299,0.0005846516,-0.001793493,5.122912,-0.07250969,0,0,0,0,0,0,21,0.01
+0,42,-0.757084,-0.05301726,16.455,-0.0009155413,3,19,0,6.309574,0.004089331,0.008764901,0.0007567382,0.001695392,5.208722,-0.08711401,0,0,0,0,0,0,21,0.01
+0,43,-0.757084,-0.05301726,17.408,-0.0009155413,3,19,0,5.011872,-0.001337177,0.009577811,-0.0003019623,0.001821132,5.237028,-0.1340967,0,0,0,0,0,0,21,0.01
+0,44,-0.757084,-0.05301726,18.546,-0.0006103609,3,19,0,3.981072,0.006752192,0.006927072,0.001261706,0.001341456,5.251993,-0.09371929,0,0,0,0,0,0,21,0.01
+0,45,-0.757084,-0.05301726,19.92,-0.0009155413,3,19,0,3.162278,0.003116577,-0.009154815,0.0006494465,-0.001752974,5.171318,-0.1380039,0,0,0,0,0,0,21,0.01
+0,46,-0.757084,-0.05301726,21.59,-0.0009155413,3,19,0,2.511886,-0.005374026,0.00805156,-0.001076138,0.001461328,5.32834,-0.2463533,0,0,0,0,0,0,21,0.01
+0,47,-0.757084,-0.05301726,23.627,-0.0009155413,3,19,0,1.995262,0.001269588,-0.009583917,0.0003177721,-0.0018347,5.187919,-0.2065666,0,0,0,0,0,0,21,0.01
+0,48,-0.757084,-0.05301726,26.138,-0.0006103609,3,19,0,1.584893,0.007330164,0.006335324,0.001315066,0.001222815,5.391732,-0.1960092,0,0,0,0,0,0,21,0.01
+0,49,-0.757084,-0.05301726,29.236,-0.0009155413,3,19,0,1.258925,-0.007466583,0.00616507,-0.001453019,0.001025031,5.429707,-0.4125565,0,0,0,0,0,0,21,0.01
+0,50,-0.757084,-0.05301726,33.141,-0.0009155413,3,19,0,1,-0.003528857,-0.009014365,-0.0005358731,-0.001740233,5.301688,-0.3952492,0,0,0,0,0,0,21,0.01
+</Segment1>
+
+<Graph1>
+Analysis=0
+Type=Unknown
+ExternalDataAxis=1
+ExternalDataName=
+Y2AxisSmoothing=None
+YAxisSmoothing=None
+XAxisSmoothing=None
+Y2AxisReferenceElectrode=(unspecified)
+YAxisReferenceElectrode=(unspecified)
+XAxisReferenceElectrode=(unspecified)
+Y2AxisMath=
+YAxisMath=
+XAxisMath=
+LockAspectRatio=False
+Grid=True
+Legend=False
+GraphTitle=
+Y2DataColor=-16744448
+GridColor=-10039894
+BackgroundColor=-1
+SelectionColor=-65536
+AnalysisColor=-4565549
+DataSymbolSize=2
+DataSymbolColor=-12490271
+DataSymbolType=Circle
+DataSymbol=True
+DataLineColor=-12490271
+DataLine=True
+Y2AxisManualScaleMax=
+Y2AxisManualScaleMin=
+Y2AxisManualAdjustment=False
+Y2AxisNormalizeToMass=False
+Y2AxisNormalizeWithArea=False
+Y2AxisNegateValues=False
+Y2AxisScientificLabels=False
+Y2AxisReverse=False
+Y2AxisLog=False
+Y2AxisName=Potential (V)
+Y2AxisType=Potential (V)
+Y2Axis=False
+YAxisManualScaleMax=
+YAxisManualScaleMin=
+YAxisManualAdjustment=False
+YAxisNormalizeToMass=False
+YAxisNormalizeWithArea=False
+YAxisNegateValues=False
+YAxisScientificLabels=False
+YAxisReverse=False
+YAxisLog=True
+YAxisName=|Z| (ohms)
+YAxisType=|Z| (ohms)
+XAxisManualScaleMax=
+XAxisManualScaleMin=
+XAxisManualAdjustment=False
+XAxisNormalizeToMass=False
+XAxisNormalizeWithArea=False
+XAxisNegateValues=False
+XAxisScientificLabels=False
+XAxisReverse=False
+XAxisLog=True
+XAxisName=Frequency (Hz)
+XAxisType=Frequency (Hz)
+Height=309
+Width=958
+LocY=25
+LocX=-958
+</Graph1>
+
+<Graph2>
+Analysis=0
+Type=Unknown
+ExternalDataAxis=1
+ExternalDataName=
+Y2AxisSmoothing=None
+YAxisSmoothing=None
+XAxisSmoothing=None
+Y2AxisReferenceElectrode=(unspecified)
+YAxisReferenceElectrode=(unspecified)
+XAxisReferenceElectrode=(unspecified)
+Y2AxisMath=
+YAxisMath=
+XAxisMath=
+LockAspectRatio=True
+Grid=True
+Legend=False
+GraphTitle=
+Y2DataColor=-16744448
+GridColor=-10039894
+BackgroundColor=-1
+SelectionColor=-65536
+AnalysisColor=-4565549
+DataSymbolSize=2
+DataSymbolColor=-12490271
+DataSymbolType=Circle
+DataSymbol=True
+DataLineColor=-12490271
+DataLine=True
+Y2AxisManualScaleMax=
+Y2AxisManualScaleMin=
+Y2AxisManualAdjustment=False
+Y2AxisNormalizeToMass=False
+Y2AxisNormalizeWithArea=False
+Y2AxisNegateValues=False
+Y2AxisScientificLabels=False
+Y2AxisReverse=False
+Y2AxisLog=False
+Y2AxisName=Potential (V)
+Y2AxisType=Potential (V)
+Y2Axis=False
+YAxisManualScaleMax=
+YAxisManualScaleMin=
+YAxisManualAdjustment=False
+YAxisNormalizeToMass=False
+YAxisNormalizeWithArea=False
+YAxisNegateValues=True
+YAxisScientificLabels=False
+YAxisReverse=False
+YAxisLog=False
+YAxisName=Zim (ohms)
+YAxisType=Zim (ohms)
+XAxisManualScaleMax=
+XAxisManualScaleMin=
+XAxisManualAdjustment=False
+XAxisNormalizeToMass=False
+XAxisNormalizeWithArea=False
+XAxisNegateValues=False
+XAxisScientificLabels=False
+XAxisReverse=False
+XAxisLog=False
+XAxisName=Zre (ohms)
+XAxisType=Zre (ohms)
+Height=309
+Width=958
+LocY=25
+LocX=1
+</Graph2>
+
+<DockingLayout>
+<?xml version="1.0" encoding="utf-16"?>
+<!--DockPanel configuration file. Author: Weifen Luo, all rights reserved.-->
+<!--!!! AUTOMATICALLY GENERATED FILE. DO NOT MODIFY !!!-->
+<DockPanel FormatVersion="1.0" DockLeftPortion="0.25" DockRightPortion="0.25" DockTopPortion="0.25" DockBottomPortion="0.25" ActiveDocumentPane="1" ActivePane="1">
+  <Contents Count="4">
+    <Content ID="0" PersistString="PowerSTAT.DataBrowser" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" />
+    <Content ID="1" PersistString="PowerSTAT.Graph" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" />
+    <Content ID="2" PersistString="PowerSTAT.Graph" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" />
+    <Content ID="3" PersistString="PowerSTAT.DataView" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" />
+  </Contents>
+  <Panes Count="3">
+    <Pane ID="0" DockState="Document" ActiveContent="0">
+      <Contents Count="1">
+        <Content ID="0" RefID="0" />
+      </Contents>
+    </Pane>
+    <Pane ID="1" DockState="Document" ActiveContent="2">
+      <Contents Count="2">
+        <Content ID="0" RefID="1" />
+        <Content ID="1" RefID="2" />
+      </Contents>
+    </Pane>
+    <Pane ID="2" DockState="DockRight" ActiveContent="3">
+      <Contents Count="1">
+        <Content ID="0" RefID="3" />
+      </Contents>
+    </Pane>
+  </Panes>
+  <DockWindows>
+    <DockWindow ID="0" DockState="Document" ZOrderIndex="0">
+      <NestedPanes Count="2">
+        <Pane ID="0" RefID="0" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+        <Pane ID="1" RefID="1" PrevPane="0" Alignment="Top" Proportion="0.5" />
+      </NestedPanes>
+    </DockWindow>
+    <DockWindow ID="1" DockState="DockLeft" ZOrderIndex="3">
+      <NestedPanes Count="0" />
+    </DockWindow>
+    <DockWindow ID="2" DockState="DockRight" ZOrderIndex="2">
+      <NestedPanes Count="1">
+        <Pane ID="0" RefID="2" PrevPane="-1" Alignment="Bottom" Proportion="0.5" />
+      </NestedPanes>
+    </DockWindow>
+    <DockWindow ID="3" DockState="DockTop" ZOrderIndex="4">
+      <NestedPanes Count="0" />
+    </DockWindow>
+    <DockWindow ID="4" DockState="DockBottom" ZOrderIndex="5">
+      <NestedPanes Count="0" />
+    </DockWindow>
+  </DockWindows>
+  <FloatWindows Count="0" />
+</DockPanel>
+</DockingLayout>

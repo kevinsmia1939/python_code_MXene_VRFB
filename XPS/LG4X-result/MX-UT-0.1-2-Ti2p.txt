@@ -1,0 +1,105 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/MX-UT 0p1 20Ap location M1 in image_MXUT0p120ApTi2p_Ti2p.txt
+
+[[Fit results]]
+
+
+	a1	a2	a3	a4	a5	a6	a7
+amplitude	15400.0	9900.0	6000.0	5500.0	4900.0	2400.0	1500.0	
+center	454.91	455.68	456.6	460.9	461.7	463.0	458.8	
+sigma	0.12	0.12	0.2	0.2	0.2	0.2	0.2	
+gamma	0.56	0.56	0.6	0.6	0.6	0.6	0.6	
+fwhm	nan	nan	nan	nan	nan	nan	nan	
+height	nan	nan	nan	nan	nan	nan	nan	
+fraction	nan	nan	nan	nan	nan	nan	nan	
+skew	0.09	0.09	0.09	0.09	0.09	0.09	0.09	
+q	nan	nan	nan	nan	nan	nan	nan	
+
+[[LG4X parameters]]
+
+[[[100], 470.4017, 450.4017, 1486.69, 4.5, -0.4017], [['', 1e-06, '', 10.0, 0, 0.0031197723586362525, 0, 145.28549367559447, '', ''], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 6, '', 6, '', 6, '', 6, '', 6, '', 6, '', 6], [0, 454.91, 0, 455.68, 0, 456.6, 0, 460.9, 0, 461.7, 0, 463.0, 0, 458.8], [0, 15400.0, 0, 9900.0, 0, 6000.0, 0, 5500.0, 0, 4900.0, 0, 2400.0, 0, 1500.0], [0, 0.56, 0, 0.56, 0, 0.6, 0, 0.6, 0, 0.6, 0, 0.6, 0, 0.6], [0, 0.12, 0, 0.12, 0, 0.2, 0, 0.2, 0, 0.2, 0, 0.2, 0, 0.2], [2, 0.02, 2, 0.02, 2, 0.02, 2, 0.02, 2, 0.02, 2, 0.02, 2, 0.02], [2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [0, 0.09, 0, 0.09, 0, 0.09, 0, 0.09, 0, 0.09, 0, 0.09, 0, 0.09], [2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], [2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0]], [[2, 454.7, 455.3, 2, 455.54, 456.12, 2, 456.45, 457.3, 2, 460.4, 461.3, 2, 461.3, 462.2, 2, 462.5, 463.75, 2, 458.4, 459.5], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [2, '', 0.7, 2, '', 0.7, 2, '', 0.7, 2, '', 0.7, 2, '', 0.7, 2, '', 0.7, 2, 0.0, 0.7], [2, '', 0.3, 2, '', 0.3, 2, '', 0.3, 2, '', 0.3, 2, '', 0.3, 2, '', 0.3, 2, '', 0.3], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('a1_amplitude', <Parameter 'a1_amplitude', value=15400.0 (fixed), bounds=[0.0:inf]>), ('a1_center', <Parameter 'a1_center', value=454.91 (fixed), bounds=[-inf:inf]>), ('a1_sigma', <Parameter 'a1_sigma', value=0.12 (fixed), bounds=[0:inf]>), ('a1_skew', <Parameter 'a1_skew', value=0.09 (fixed), bounds=[-1:1]>), ('a1_gamma', <Parameter 'a1_gamma', value=0.56 (fixed), bounds=[0:inf]>), ('a1_center_diff', <Parameter 'a1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a1_amp_ratio', <Parameter 'a1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a1_gaussian_ratio', <Parameter 'a1_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a1_lorentzian_ratio', <Parameter 'a1_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a2_amplitude', <Parameter 'a2_amplitude', value=9900.0 (fixed), bounds=[0.0:inf]>), ('a2_center', <Parameter 'a2_center', value=455.68 (fixed), bounds=[-inf:inf]>), ('a2_sigma', <Parameter 'a2_sigma', value=0.12 (fixed), bounds=[0:inf]>), ('a2_skew', <Parameter 'a2_skew', value=0.09 (fixed), bounds=[-1:1]>), ('a2_gamma', <Parameter 'a2_gamma', value=0.56 (fixed), bounds=[0:inf]>), ('a2_center_diff', <Parameter 'a2_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a2_amp_ratio', <Parameter 'a2_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a2_gaussian_ratio', <Parameter 'a2_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a2_lorentzian_ratio', <Parameter 'a2_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a3_amplitude', <Parameter 'a3_amplitude', value=6000.0 (fixed), bounds=[0.0:inf]>), ('a3_center', <Parameter 'a3_center', value=456.6 (fixed), bounds=[-inf:inf]>), ('a3_sigma', <Parameter 'a3_sigma', value=0.2 (fixed), bounds=[0:inf]>), ('a3_skew', <Parameter 'a3_skew', value=0.09 (fixed), bounds=[-1:1]>), ('a3_gamma', <Parameter 'a3_gamma', value=0.6 (fixed), bounds=[0:inf]>), ('a3_center_diff', <Parameter 'a3_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a3_amp_ratio', <Parameter 'a3_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a3_gaussian_ratio', <Parameter 'a3_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a3_lorentzian_ratio', <Parameter 'a3_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a4_amplitude', <Parameter 'a4_amplitude', value=5500.0 (fixed), bounds=[0.0:inf]>), ('a4_center', <Parameter 'a4_center', value=460.9 (fixed), bounds=[-inf:inf]>), ('a4_sigma', <Parameter 'a4_sigma', value=0.2 (fixed), bounds=[0:inf]>), ('a4_skew', <Parameter 'a4_skew', value=0.09 (fixed), bounds=[-1:1]>), ('a4_gamma', <Parameter 'a4_gamma', value=0.6 (fixed), bounds=[0:inf]>), ('a4_center_diff', <Parameter 'a4_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a4_amp_ratio', <Parameter 'a4_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a4_gaussian_ratio', <Parameter 'a4_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a4_lorentzian_ratio', <Parameter 'a4_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a5_amplitude', <Parameter 'a5_amplitude', value=4900.0 (fixed), bounds=[0.0:inf]>), ('a5_center', <Parameter 'a5_center', value=461.7 (fixed), bounds=[-inf:inf]>), ('a5_sigma', <Parameter 'a5_sigma', value=0.2 (fixed), bounds=[0:inf]>), ('a5_skew', <Parameter 'a5_skew', value=0.09 (fixed), bounds=[-1:1]>), ('a5_gamma', <Parameter 'a5_gamma', value=0.6 (fixed), bounds=[0:inf]>), ('a5_center_diff', <Parameter 'a5_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a5_amp_ratio', <Parameter 'a5_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a5_gaussian_ratio', <Parameter 'a5_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a5_lorentzian_ratio', <Parameter 'a5_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a6_amplitude', <Parameter 'a6_amplitude', value=2400.0 (fixed), bounds=[0.0:inf]>), ('a6_center', <Parameter 'a6_center', value=463.0 (fixed), bounds=[-inf:inf]>), ('a6_sigma', <Parameter 'a6_sigma', value=0.2 (fixed), bounds=[0:inf]>), ('a6_skew', <Parameter 'a6_skew', value=0.09 (fixed), bounds=[-1:1]>), ('a6_gamma', <Parameter 'a6_gamma', value=0.6 (fixed), bounds=[0:inf]>), ('a6_center_diff', <Parameter 'a6_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a6_amp_ratio', <Parameter 'a6_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a6_gaussian_ratio', <Parameter 'a6_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a6_lorentzian_ratio', <Parameter 'a6_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a7_amplitude', <Parameter 'a7_amplitude', value=1500.0 (fixed), bounds=[0.0:inf]>), ('a7_center', <Parameter 'a7_center', value=458.8 (fixed), bounds=[-inf:inf]>), ('a7_sigma', <Parameter 'a7_sigma', value=0.2 (fixed), bounds=[0:inf]>), ('a7_skew', <Parameter 'a7_skew', value=0.09 (fixed), bounds=[-1:1]>), ('a7_gamma', <Parameter 'a7_gamma', value=0.6 (fixed), bounds=[0:inf]>), ('a7_center_diff', <Parameter 'a7_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a7_amp_ratio', <Parameter 'a7_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a7_gaussian_ratio', <Parameter 'a7_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a7_lorentzian_ratio', <Parameter 'a7_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>)])
+
+[[Model]]
+    ((((((Model(skewed_voigt, prefix='a1_') + Model(skewed_voigt, prefix='a2_')) + Model(skewed_voigt, prefix='a3_')) + Model(skewed_voigt, prefix='a4_')) + Model(skewed_voigt, prefix='a5_')) + Model(skewed_voigt, prefix='a6_')) + Model(skewed_voigt, prefix='a7_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 0
+    # data points      = 201
+    # variables        = 0
+    chi-square         = 24157924.8
+    reduced chi-square = 120188.681
+    Akaike info crit   = 2351.06044
+    Bayesian info crit = 2351.06044
+    R-squared          = 0.98410122
+##  Warning: uncertainties could not be estimated:
+[[Variables]]
+    a1_amplitude:         15400 (fixed)
+    a1_center:            454.91 (fixed)
+    a1_sigma:             0.12 (fixed)
+    a1_skew:              0.09 (fixed)
+    a1_gamma:             0.56 (fixed)
+    a1_center_diff:       0.1 (fixed)
+    a1_amp_ratio:         0.5 (fixed)
+    a1_gaussian_ratio:    1 (fixed)
+    a1_lorentzian_ratio:  1 (fixed)
+    a2_amplitude:         9900 (fixed)
+    a2_center:            455.68 (fixed)
+    a2_sigma:             0.12 (fixed)
+    a2_skew:              0.09 (fixed)
+    a2_gamma:             0.56 (fixed)
+    a2_center_diff:       0.1 (fixed)
+    a2_amp_ratio:         0.5 (fixed)
+    a2_gaussian_ratio:    1 (fixed)
+    a2_lorentzian_ratio:  1 (fixed)
+    a3_amplitude:         6000 (fixed)
+    a3_center:            456.6 (fixed)
+    a3_sigma:             0.2 (fixed)
+    a3_skew:              0.09 (fixed)
+    a3_gamma:             0.6 (fixed)
+    a3_center_diff:       0.1 (fixed)
+    a3_amp_ratio:         0.5 (fixed)
+    a3_gaussian_ratio:    1 (fixed)
+    a3_lorentzian_ratio:  1 (fixed)
+    a4_amplitude:         5500 (fixed)
+    a4_center:            460.9 (fixed)
+    a4_sigma:             0.2 (fixed)
+    a4_skew:              0.09 (fixed)
+    a4_gamma:             0.6 (fixed)
+    a4_center_diff:       0.1 (fixed)
+    a4_amp_ratio:         0.5 (fixed)
+    a4_gaussian_ratio:    1 (fixed)
+    a4_lorentzian_ratio:  1 (fixed)
+    a5_amplitude:         4900 (fixed)
+    a5_center:            461.7 (fixed)
+    a5_sigma:             0.2 (fixed)
+    a5_skew:              0.09 (fixed)
+    a5_gamma:             0.6 (fixed)
+    a5_center_diff:       0.1 (fixed)
+    a5_amp_ratio:         0.5 (fixed)
+    a5_gaussian_ratio:    1 (fixed)
+    a5_lorentzian_ratio:  1 (fixed)
+    a6_amplitude:         2400 (fixed)
+    a6_center:            463 (fixed)
+    a6_sigma:             0.2 (fixed)
+    a6_skew:              0.09 (fixed)
+    a6_gamma:             0.6 (fixed)
+    a6_center_diff:       0.1 (fixed)
+    a6_amp_ratio:         0.5 (fixed)
+    a6_gaussian_ratio:    1 (fixed)
+    a6_lorentzian_ratio:  1 (fixed)
+    a7_amplitude:         1500 (fixed)
+    a7_center:            458.8 (fixed)
+    a7_sigma:             0.2 (fixed)
+    a7_skew:              0.09 (fixed)
+    a7_gamma:             0.6 (fixed)
+    a7_center_diff:       0.1 (fixed)
+    a7_amp_ratio:         0.5 (fixed)
+    a7_gaussian_ratio:    1 (fixed)
+    a7_lorentzian_ratio:  1 (fixed)

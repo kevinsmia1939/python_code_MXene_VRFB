@@ -1,0 +1,123 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/HT CP 19 Ap location C1 in image_HTCP19Apwide_wide.txt
+
+[[Fit results]]
+
+bg_poly_c0	-16528096.96900061
+bg_poly_c1	129086.42310186726
+bg_poly_c2	-376.21756385742594
+bg_poly_c3	0.48606493322529937
+bg_poly_c4	-0.00023490184038526637
+
+	g1	g2
+amplitude	44104.25	13582.962	
+center	536.11847	539.7016	
+sigma	1.5806525	2.7395885	
+gamma	nan	nan	
+fwhm	3.7221522	6.4512377	
+height	11131.511	1977.9679	
+fraction	nan	nan	
+skew	nan	nan	
+q	nan	nan	
+
+[[LG4X parameters]]
+
+[[[2], 580.0, 500.0, 1486.6, 4.0], [['', 1e-06, '', 10.0, 0, 0.07832682333493479, 0, 39361.828950469135, '', 1486.69], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [0, -16528096.96900061, 0, 129086.42310186726, 0, -376.21756385742594, 0, 0.48606493322529937, 0, -0.00023490184038526637], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, 537.5000125907201, 0, -1870.3021232459507, 0, 139.46190479010323, 0, -4.141331488016588, 0, 0.04733037642574885]], [['', 0, '', 0], [0, 536.1185, 0, 539.7016], [0, 44104.2503, 0, 13582.9618], [2, 0.2, 2, 0.2], [0, 1.5807, 0, 2.7396], [2, 0.02, 2, 0.02], [2, 0.0, 2, 0.0], [2, 0.0, 2, 0.0], [2, 0.0, 2, 0.0], [2, 0.026, 2, 0.026], [2, 1.0, 2, 1.0], [2, 0.7, 2, 0.7], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 0.1, 2, 0.1], ['', 0, '', 0], [2, 0.5, 2, 0.5], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0]], [[0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('bg_poly_c0', <Parameter 'bg_poly_c0', value=23073074.478057534, bounds=[-inf:inf]>), ('bg_poly_c1', <Parameter 'bg_poly_c1', value=-164802.69895205327, bounds=[-inf:inf]>), ('bg_poly_c2', <Parameter 'bg_poly_c2', value=440.8229290871612, bounds=[-inf:inf]>), ('bg_poly_c3', <Parameter 'bg_poly_c3', value=-0.5224316827091242, bounds=[-inf:inf]>), ('bg_poly_c4', <Parameter 'bg_poly_c4', value=0.0002314263882216013, bounds=[-inf:inf]>), ('g1_amplitude', <Parameter 'g1_amplitude', value=50717.5808, bounds=[-inf:inf]>), ('g1_center', <Parameter 'g1_center', value=536.3592, bounds=[-inf:inf]>), ('g1_sigma', <Parameter 'g1_sigma', value=1.773, bounds=[0:inf]>), ('g1_fwhm', <Parameter 'g1_fwhm', value=4.17509586, bounds=[-inf:inf], expr='2.3548200*g1_sigma'>), ('g1_height', <Parameter 'g1_height', value=11411.950555435897, bounds=[-inf:inf], expr='0.3989423*g1_amplitude/max(1e-15, g1_sigma)'>), ('g1_center_diff', <Parameter 'g1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('g1_amp_ratio', <Parameter 'g1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('g1_gaussian_ratio', <Parameter 'g1_gaussian_ratio', value=1.0 (fixed), bounds=[-inf:inf]>), ('g2_amplitude', <Parameter 'g2_amplitude', value=25358.7904, bounds=[-inf:inf]>), ('g2_center', <Parameter 'g2_center', value=541.0, bounds=[-inf:inf]>), ('g2_sigma', <Parameter 'g2_sigma', value=1.773, bounds=[0:inf]>), ('g2_fwhm', <Parameter 'g2_fwhm', value=4.17509586, bounds=[-inf:inf], expr='2.3548200*g2_sigma'>), ('g2_height', <Parameter 'g2_height', value=5705.975277717948, bounds=[-inf:inf], expr='0.3989423*g2_amplitude/max(1e-15, g2_sigma)'>), ('g2_center_diff', <Parameter 'g2_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('g2_amp_ratio', <Parameter 'g2_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('g2_gaussian_ratio', <Parameter 'g2_gaussian_ratio', value=1.0 (fixed), bounds=[-inf:inf]>)])
+
+[[Model]]
+    ((Model(polynomial, prefix='bg_poly_') + Model(gaussian, prefix='g1_')) + Model(gaussian, prefix='g2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 514
+    # data points      = 80
+    # variables        = 11
+    chi-square         = 59.4826863
+    reduced chi-square = 0.86206792
+    Akaike info crit   = -1.70730810
+    Bayesian info crit = 24.4949849
+    R-squared          = 0.99999985
+[[Variables]]
+    bg_poly_c0:        -16528097.0 +/- 10904940.3 (65.98%) (init = 2.307307e+07)
+    bg_poly_c1:         129086.423 +/- 80980.4871 (62.73%) (init = -164802.7)
+    bg_poly_c2:        -376.217564 +/- 225.326808 (59.89%) (init = 440.8229)
+    bg_poly_c3:         0.48606493 +/- 0.27842410 (57.28%) (init = -0.5224317)
+    bg_poly_c4:        -2.3490e-04 +/- 1.2891e-04 (54.88%) (init = 0.0002314264)
+    g1_amplitude:       44104.2503 +/- 6609.44522 (14.99%) (init = 50717.58)
+    g1_center:          536.118496 +/- 0.06195616 (0.01%) (init = 536.3592)
+    g1_sigma:           1.58065250 +/- 0.07401427 (4.68%) (init = 1.773)
+    g1_fwhm:            3.72215213 +/- 0.17429028 (4.68%) == '2.3548200*g1_sigma'
+    g1_height:          11131.5112 +/- 1187.46403 (10.67%) == '0.3989423*g1_amplitude/max(1e-15, g1_sigma)'
+    g1_center_diff:     0.1 (fixed)
+    g1_amp_ratio:       0.5 (fixed)
+    g1_gaussian_ratio:  1 (fixed)
+    g2_amplitude:       13582.9618 +/- 7169.74349 (52.78%) (init = 25358.79)
+    g2_center:          539.701578 +/- 1.53030839 (0.28%) (init = 541)
+    g2_sigma:           2.73958840 +/- 0.84906543 (30.99%) (init = 1.773)
+    g2_fwhm:            6.45123756 +/- 1.99939625 (30.99%) == '2.3548200*g2_sigma'
+    g2_height:          1977.96794 +/- 467.312138 (23.63%) == '0.3989423*g2_amplitude/max(1e-15, g2_sigma)'
+    g2_center_diff:     0.1 (fixed)
+    g2_amp_ratio:       0.5 (fixed)
+    g2_gaussian_ratio:  1 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(bg_poly_c3, bg_poly_c4)     = -1.000
+    C(bg_poly_c2, bg_poly_c3)     = -1.000
+    C(bg_poly_c1, bg_poly_c2)     = -1.000
+    C(bg_poly_c0, bg_poly_c1)     = -1.000
+    C(bg_poly_c2, bg_poly_c4)     = 1.000
+    C(bg_poly_c1, bg_poly_c3)     = 1.000
+    C(bg_poly_c0, bg_poly_c2)     = 1.000
+    C(bg_poly_c1, bg_poly_c4)     = -1.000
+    C(bg_poly_c0, bg_poly_c3)     = -1.000
+    C(bg_poly_c0, bg_poly_c4)     = 1.000
+    C(g1_amplitude, g2_center)    = 0.993
+    C(g1_amplitude, g2_amplitude) = -0.987
+    C(g2_amplitude, g2_center)    = -0.983
+    C(g2_amplitude, g2_sigma)     = 0.975
+    C(g1_amplitude, g2_sigma)     = -0.955
+    C(g2_center, g2_sigma)        = -0.955
+    C(g1_amplitude, g1_sigma)     = 0.946
+    C(g1_sigma, g2_center)        = 0.926
+    C(g1_sigma, g2_amplitude)     = -0.917
+    C(g1_amplitude, g1_center)    = 0.875
+    C(g1_center, g2_center)       = 0.872
+    C(g1_center, g2_amplitude)    = -0.867
+    C(g1_center, g1_sigma)        = 0.864
+    C(g1_sigma, g2_sigma)         = -0.852
+    C(g1_center, g2_sigma)        = -0.774
+    C(bg_poly_c0, g2_sigma)       = -0.297
+    C(bg_poly_c1, g2_sigma)       = 0.297
+    C(bg_poly_c2, g2_sigma)       = -0.296
+    C(bg_poly_c3, g2_sigma)       = 0.296
+    C(bg_poly_c4, g2_sigma)       = -0.296
+    C(bg_poly_c0, g2_amplitude)   = -0.288
+    C(bg_poly_c1, g2_amplitude)   = 0.288
+    C(bg_poly_c2, g2_amplitude)   = -0.288
+    C(bg_poly_c3, g2_amplitude)   = 0.288
+    C(bg_poly_c4, g2_amplitude)   = -0.288
+    C(bg_poly_c1, g2_center)      = -0.208
+    C(bg_poly_c0, g2_center)      = 0.208
+    C(bg_poly_c2, g2_center)      = 0.208
+    C(bg_poly_c3, g2_center)      = -0.208
+    C(bg_poly_c4, g2_center)      = 0.208
+    C(bg_poly_c0, g1_amplitude)   = 0.202
+    C(bg_poly_c1, g1_amplitude)   = -0.202
+    C(bg_poly_c2, g1_amplitude)   = 0.202
+    C(bg_poly_c3, g1_amplitude)   = -0.201
+    C(bg_poly_c4, g1_amplitude)   = 0.201
+    C(bg_poly_c4, g1_center)      = 0.185
+    C(bg_poly_c3, g1_center)      = -0.185
+    C(bg_poly_c2, g1_center)      = 0.184
+    C(bg_poly_c1, g1_center)      = -0.184
+    C(bg_poly_c0, g1_center)      = 0.184
+    C(bg_poly_c0, g1_sigma)       = 0.138
+    C(bg_poly_c1, g1_sigma)       = -0.137
+    C(bg_poly_c2, g1_sigma)       = 0.137
+    C(bg_poly_c3, g1_sigma)       = -0.137
+    C(bg_poly_c4, g1_sigma)       = 0.137

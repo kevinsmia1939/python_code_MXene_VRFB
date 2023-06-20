@@ -1,0 +1,76 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/MX-UT 0p1 20Ap location M1 in image_MXUT0p120ApO1s_O1s.txt
+
+[[Fit results]]
+
+bg_shirley_k	4.597131120220865e-09
+bg_shirley_const	187.0985469865395
+
+	v1	v2
+amplitude	7743.0186	2632.1602	
+center	532.45404	530.00793	
+sigma	1.2847886	0.3734661	
+gamma	0.0	0.0	
+fwhm	3.0254204	0.879438	
+height	2404.3	2811.714	
+fraction	nan	nan	
+skew	nan	nan	
+q	nan	nan	
+
+[[LG4X parameters]]
+
+[[[100], 540.6539, 525.6539, 1486.69, 4.5, -0.6539], [['', 1e-06, '', 10.0, 0, 4.597131120220865e-09, 0, 187.0985469865395, '', ''], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [0, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 2, '', 2], [0, 532.454, 0, 530.0079], [0, 7743.0183, 0, 2632.1602], [0, 0.0, 0, 0.0], [0, 1.2848, 0, 0.3735], [2, 0.02, 2, 0.02], [2, 0.0, 2, 0.0], [0, 0.1375, 0, 0.1375], [2, 0.0, 2, 0.0], [2, 0.026, 2, 0.026], [2, 1.0, 2, 1.0], [2, 0.7, 2, 0.7], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 0.1, 2, 0.1], ['', 0, '', 0], [2, 0.5, 2, 0.5], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0]], [[0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('bg_shirley_k', <Parameter 'bg_shirley_k', value=4.597131120220865e-09, bounds=[0:inf]>), ('bg_shirley_const', <Parameter 'bg_shirley_const', value=187.0985478306468, bounds=[0:inf]>), ('v1_amplitude', <Parameter 'v1_amplitude', value=7743.0183, bounds=[0.0:inf]>), ('v1_center', <Parameter 'v1_center', value=532.454, bounds=[-inf:inf]>), ('v1_sigma', <Parameter 'v1_sigma', value=1.2848, bounds=[0:inf]>), ('v1_gamma', <Parameter 'v1_gamma', value=0.0, bounds=[0:inf]>), ('v1_fwhm', <Parameter 'v1_fwhm', value=3.0254470290878204, bounds=[-inf:inf], expr='1.0692*v1_gamma+sqrt(0.8664*v1_gamma**2+5.545083*v1_sigma**2)'>), ('v1_height', <Parameter 'v1_height', value=2404.278780971377, bounds=[-inf:inf], expr='(v1_amplitude/(max(1e-15, v1_sigma*sqrt(2*pi))))*wofz((1j*v1_gamma)/(max(1e-15, v1_sigma*sqrt(2)))).real'>), ('v1_center_diff', <Parameter 'v1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('v1_amp_ratio', <Parameter 'v1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('v1_gaussian_ratio', <Parameter 'v1_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('v1_lorentzian_ratio', <Parameter 'v1_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('v2_amplitude', <Parameter 'v2_amplitude', value=2632.1602, bounds=[0.0:inf]>), ('v2_center', <Parameter 'v2_center', value=530.0079, bounds=[-inf:inf]>), ('v2_sigma', <Parameter 'v2_sigma', value=0.3735, bounds=[0:inf]>), ('v2_gamma', <Parameter 'v2_gamma', value=0.0, bounds=[0:inf]>), ('v2_fwhm', <Parameter 'v2_fwhm', value=0.8795177968277561, bounds=[-inf:inf], expr='1.0692*v2_gamma+sqrt(0.8664*v2_gamma**2+5.545083*v2_sigma**2)'>), ('v2_height', <Parameter 'v2_height', value=2811.4591501201903, bounds=[-inf:inf], expr='(v2_amplitude/(max(1e-15, v2_sigma*sqrt(2*pi))))*wofz((1j*v2_gamma)/(max(1e-15, v2_sigma*sqrt(2)))).real'>), ('v2_center_diff', <Parameter 'v2_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('v2_amp_ratio', <Parameter 'v2_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('v2_gaussian_ratio', <Parameter 'v2_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('v2_lorentzian_ratio', <Parameter 'v2_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>)])
+
+[[Model]]
+    ((Model(shirley, prefix='bg_shirley_') + Model(voigt, prefix='v1_')) + Model(voigt, prefix='v2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 23
+    # data points      = 151
+    # variables        = 10
+    chi-square         = 1106341.50
+    reduced chi-square = 7846.39358
+    Akaike info crit   = 1363.79269
+    Bayesian info crit = 1393.96549
+    R-squared          = 0.99190327
+##  Warning: uncertainties could not be estimated:
+    bg_shirley_k:         at initial value
+    bg_shirley_k:         at boundary
+    bg_shirley_const:     at initial value
+    v1_amplitude:         at initial value
+    v1_center:            at initial value
+    v1_sigma:             at initial value
+    v1_gamma:             at boundary
+    v2_amplitude:         at initial value
+    v2_center:            at initial value
+    v2_gamma:             at boundary
+[[Variables]]
+    bg_shirley_k:         4.5971e-09 (init = 4.597131e-09)
+    bg_shirley_const:     187.098547 (init = 187.0985)
+    v1_amplitude:         7743.01834 (init = 7743.018)
+    v1_center:            532.454049 (init = 532.454)
+    v1_sigma:             1.28478866 (init = 1.2848)
+    v1_gamma:             0.00000000 (init = 0)
+    v1_fwhm:              3.02542033 == '1.0692*v1_gamma+sqrt(0.8664*v1_gamma**2+5.545083*v1_sigma**2)'
+    v1_height:            2404.30001 == '(v1_amplitude/(max(1e-15, v1_sigma*sqrt(2*pi))))*wofz((1j*v1_gamma)/(max(1e-15, v1_sigma*sqrt(2)))).real'
+    v1_center_diff:       0.1 (fixed)
+    v1_amp_ratio:         0.5 (fixed)
+    v1_gaussian_ratio:    1 (fixed)
+    v1_lorentzian_ratio:  1 (fixed)
+    v2_amplitude:         2632.16020 (init = 2632.16)
+    v2_center:            530.007909 (init = 530.0079)
+    v2_sigma:             0.37346612 (init = 0.3735)
+    v2_gamma:             0.00000000 (init = 0)
+    v2_fwhm:              0.87943801 == '1.0692*v2_gamma+sqrt(0.8664*v2_gamma**2+5.545083*v2_sigma**2)'
+    v2_height:            2811.71421 == '(v2_amplitude/(max(1e-15, v2_sigma*sqrt(2*pi))))*wofz((1j*v2_gamma)/(max(1e-15, v2_sigma*sqrt(2)))).real'
+    v2_center_diff:       0.1 (fixed)
+    v2_amp_ratio:         0.5 (fixed)
+    v2_gaussian_ratio:    1 (fixed)
+    v2_lorentzian_ratio:  1 (fixed)

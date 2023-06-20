@@ -1,0 +1,55 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/UT 18 Ap location T1 in image_UT18ApO1s_O1s.txt
+
+[[Fit results]]
+
+
+	v1
+amplitude	14329.947	
+center	532.79095	
+sigma	0.6542315	
+gamma	0.53323674	
+fwhm	2.1887019	
+height	5055.538	
+fraction	nan	
+skew	nan	
+q	nan	
+
+[[LG4X parameters]]
+
+[[[0], 540.6482, 525.6482, 1486.69, 4.5, -0.6482], [['', 1e-06, '', 10.0, 0, 4.597131120220865e-09, 0, 156.1225524477252, '', ''], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [0, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 2], [0, 532.7909], [0, 14329.9476], [0, 0.5332], [0, 0.6542], [2, 0.02], [2, 0.0], [0, 0.1415], [2, 0.0], [2, 0.026], [2, 1.0], [2, 0.7], [2, 1.0], ['', 0], [2, 0.1], ['', 0], [2, 0.5], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0]], [[0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('v1_amplitude', <Parameter 'v1_amplitude', value=12096.9514, bounds=[0.0:inf]>), ('v1_center', <Parameter 'v1_center', value=532.7901, bounds=[-inf:inf]>), ('v1_sigma', <Parameter 'v1_sigma', value=0.8366, bounds=[0:inf]>), ('v1_gamma', <Parameter 'v1_gamma', value=0.1904, bounds=[0:inf]>), ('v1_fwhm', <Parameter 'v1_fwhm', value=2.181556980034831, bounds=[-inf:inf], expr='1.0692*v1_gamma+sqrt(0.8664*v1_gamma**2+5.545083*v1_sigma**2)'>), ('v1_height', <Parameter 'v1_height', value=4854.133828159358, bounds=[-inf:inf], expr='(v1_amplitude/(max(1e-15, v1_sigma*sqrt(2*pi))))*wofz((1j*v1_gamma)/(max(1e-15, v1_sigma*sqrt(2)))).real'>), ('v1_center_diff', <Parameter 'v1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('v1_amp_ratio', <Parameter 'v1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('v1_gaussian_ratio', <Parameter 'v1_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('v1_lorentzian_ratio', <Parameter 'v1_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>)])
+
+[[Model]]
+    Model(voigt, prefix='v1_')
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 37
+    # data points      = 151
+    # variables        = 4
+    chi-square         = 1796872.04
+    reduced chi-square = 12223.6193
+    Akaike info crit   = 1425.02600
+    Bayesian info crit = 1437.09512
+    R-squared          = 0.99392085
+[[Variables]]
+    v1_amplitude:         14329.9476 +/- 153.928395 (1.07%) (init = 12096.95)
+    v1_center:            532.790938 +/- 0.00755178 (0.00%) (init = 532.7901)
+    v1_sigma:             0.65423149 +/- 0.02548473 (3.90%) (init = 0.8366)
+    v1_gamma:             0.53323671 +/- 0.03073327 (5.76%) (init = 0.1904)
+    v1_fwhm:              2.18870191 +/- 0.02434222 (1.11%) == '1.0692*v1_gamma+sqrt(0.8664*v1_gamma**2+5.545083*v1_sigma**2)'
+    v1_height:            5055.53785 +/- 37.3802808 (0.74%) == '(v1_amplitude/(max(1e-15, v1_sigma*sqrt(2*pi))))*wofz((1j*v1_gamma)/(max(1e-15, v1_sigma*sqrt(2)))).real'
+    v1_center_diff:       0.1 (fixed)
+    v1_amp_ratio:         0.5 (fixed)
+    v1_gaussian_ratio:    1 (fixed)
+    v1_lorentzian_ratio:  1 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(v1_sigma, v1_gamma)     = -0.926
+    C(v1_amplitude, v1_gamma) = 0.816
+    C(v1_amplitude, v1_sigma) = -0.645

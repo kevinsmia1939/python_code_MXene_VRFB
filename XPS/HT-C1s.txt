@@ -1,0 +1,87 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/HT CP 19 Ap location C1 in image_HTCP19ApC1s_C1s.txt
+
+[[Fit results]]
+
+bg_shirley_k	0.0020293873687666775
+bg_shirley_const	3.6524105961888154e-09
+
+	a1	v2	v3
+amplitude	22419.045	2482.223	2849.1711	
+center	288.33783	290.16043	294.819	
+sigma	0.123958215	0.0	0.0	
+gamma	0.19109486	1.3393267	2.051788	
+fwhm	nan	2.6786618	4.1035886	
+height	nan	1045.633	783.4497	
+fraction	nan	nan	nan	
+skew	0.1458639	nan	nan	
+q	nan	nan	nan	
+
+[[LG4X parameters]]
+
+[[[100], 299.5, 281.5, 1486.6, 4.0], [['', 1e-06, '', 10.0, 0, 0.0020293873687666775, 0, 3.6524105961888154e-09, '', 1486.69], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 6, '', 2, '', 2], [0, 288.3378, 0, 290.1604, 0, 294.819], [0, 22419.044, 0, 2482.223, 0, 2849.1712], [0, 0.1911, 0, 1.3393, 0, 2.0518], [0, 0.124, 0, 0.0, 0, 0.0], [2, 0.02, 2, 0.02, 2, 0.02], [2, 0.0, 2, 0.0, 2, 0.0], [0, 0.1459, 0, 0.022, 0, 0.022], [2, 0.0, 2, 0.0, 2, 0.0], [2, 0.026, 2, 0.026, 2, 0.026], [2, 1.0, 2, 1.0, 2, 1.0], [2, 0.7, 2, 0.7, 2, 0.7], [2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0], [2, 0.1, 2, 0.1, 2, 0.1], ['', 0, '', 0, '', 0], [2, 0.5, 2, 0.5, 2, 0.5], ['', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0]], [[0, '', '', 2, 289.5, 290.5, 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('bg_shirley_k', <Parameter 'bg_shirley_k', value=0.0020293873661425543, bounds=[0:inf]>), ('bg_shirley_const', <Parameter 'bg_shirley_const', value=3.6524105961888154e-09, bounds=[0:inf]>), ('a1_amplitude', <Parameter 'a1_amplitude', value=22419.044, bounds=[-inf:inf]>), ('a1_center', <Parameter 'a1_center', value=288.3378, bounds=[-inf:inf]>), ('a1_sigma', <Parameter 'a1_sigma', value=0.124, bounds=[0:inf]>), ('a1_skew', <Parameter 'a1_skew', value=0.1459, bounds=[-inf:inf]>), ('a1_gamma', <Parameter 'a1_gamma', value=0.1911, bounds=[-inf:inf]>), ('a1_center_diff', <Parameter 'a1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a1_amp_ratio', <Parameter 'a1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a1_gaussian_ratio', <Parameter 'a1_gaussian_ratio', value=1.0 (fixed), bounds=[-inf:inf]>), ('a1_lorentzian_ratio', <Parameter 'a1_lorentzian_ratio', value=1.0 (fixed), bounds=[-inf:inf]>), ('v2_amplitude', <Parameter 'v2_amplitude', value=2482.2229, bounds=[-inf:inf]>), ('v2_center', <Parameter 'v2_center', value=290.1604, bounds=[289.5:290.5]>), ('v2_sigma', <Parameter 'v2_sigma', value=0.0, bounds=[0:inf]>), ('v2_gamma', <Parameter 'v2_gamma', value=1.3393, bounds=[-inf:inf]>), ('v2_fwhm', <Parameter 'v2_fwhm', value=2.6786081727536137, bounds=[-inf:inf], expr='1.0692*v2_gamma+sqrt(0.8664*v2_gamma**2+5.545083*v2_sigma**2)'>), ('v2_height', <Parameter 'v2_height', value=1045.653926845146, bounds=[-inf:inf], expr='(v2_amplitude/(max(1e-15, v2_sigma*sqrt(2*pi))))*wofz((1j*v2_gamma)/(max(1e-15, v2_sigma*sqrt(2)))).real'>), ('v2_center_diff', <Parameter 'v2_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('v2_amp_ratio', <Parameter 'v2_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('v2_gaussian_ratio', <Parameter 'v2_gaussian_ratio', value=1.0 (fixed), bounds=[-inf:inf]>), ('v2_lorentzian_ratio', <Parameter 'v2_lorentzian_ratio', value=1.0 (fixed), bounds=[-inf:inf]>), ('v3_amplitude', <Parameter 'v3_amplitude', value=2849.1713, bounds=[-inf:inf]>), ('v3_center', <Parameter 'v3_center', value=294.819, bounds=[-inf:inf]>), ('v3_sigma', <Parameter 'v3_sigma', value=0.0, bounds=[0:inf]>), ('v3_gamma', <Parameter 'v3_gamma', value=2.0518, bounds=[-inf:inf]>), ('v3_fwhm', <Parameter 'v3_fwhm', value=4.10361252061216, bounds=[-inf:inf], expr='1.0692*v3_gamma+sqrt(0.8664*v3_gamma**2+5.545083*v3_sigma**2)'>), ('v3_height', <Parameter 'v3_height', value=783.4451550849105, bounds=[-inf:inf], expr='(v3_amplitude/(max(1e-15, v3_sigma*sqrt(2*pi))))*wofz((1j*v3_gamma)/(max(1e-15, v3_sigma*sqrt(2)))).real'>), ('v3_center_diff', <Parameter 'v3_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('v3_amp_ratio', <Parameter 'v3_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('v3_gaussian_ratio', <Parameter 'v3_gaussian_ratio', value=1.0 (fixed), bounds=[-inf:inf]>), ('v3_lorentzian_ratio', <Parameter 'v3_lorentzian_ratio', value=1.0 (fixed), bounds=[-inf:inf]>)])
+
+[[Model]]
+    (((Model(shirley, prefix='bg_shirley_') + Model(skewed_voigt, prefix='a1_')) + Model(voigt, prefix='v2_')) + Model(voigt, prefix='v3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 49
+    # data points      = 181
+    # variables        = 15
+    chi-square         = 404.649099
+    reduced chi-square = 2.43764517
+    Akaike info crit   = 175.618706
+    Bayesian info crit = 223.596161
+    R-squared          = 0.99999988
+##  Warning: uncertainties could not be estimated:
+    bg_shirley_k:         at initial value
+    bg_shirley_const:     at initial value
+    bg_shirley_const:     at boundary
+    a1_amplitude:         at initial value
+    a1_center:            at initial value
+    v2_amplitude:         at initial value
+    v2_center:            at initial value
+    v2_sigma:             at boundary
+    v3_amplitude:         at initial value
+    v3_center:            at initial value
+    v3_sigma:             at boundary
+    v3_gamma:             at initial value
+[[Variables]]
+    bg_shirley_k:         0.00202939 (init = 0.002029387)
+    bg_shirley_const:     3.6524e-09 (init = 3.652411e-09)
+    a1_amplitude:         22419.0440 (init = 22419.04)
+    a1_center:            288.337819 (init = 288.3378)
+    a1_sigma:             0.12395821 (init = 0.124)
+    a1_skew:              0.14586391 (init = 0.1459)
+    a1_gamma:             0.19109486 (init = 0.1911)
+    a1_center_diff:       0.1 (fixed)
+    a1_amp_ratio:         0.5 (fixed)
+    a1_gaussian_ratio:    1 (fixed)
+    a1_lorentzian_ratio:  1 (fixed)
+    v2_amplitude:         2482.22296 (init = 2482.223)
+    v2_center:            290.160432 (init = 290.1604)
+    v2_sigma:             0.00000000 (init = 0)
+    v2_gamma:             1.33932677 (init = 1.3393)
+    v2_fwhm:              2.67866172 == '1.0692*v2_gamma+sqrt(0.8664*v2_gamma**2+5.545083*v2_sigma**2)'
+    v2_height:            1045.63305 == '(v2_amplitude/(max(1e-15, v2_sigma*sqrt(2*pi))))*wofz((1j*v2_gamma)/(max(1e-15, v2_sigma*sqrt(2)))).real'
+    v2_center_diff:       0.1 (fixed)
+    v2_amp_ratio:         0.5 (fixed)
+    v2_gaussian_ratio:    1 (fixed)
+    v2_lorentzian_ratio:  1 (fixed)
+    v3_amplitude:         2849.17121 (init = 2849.171)
+    v3_center:            294.818991 (init = 294.819)
+    v3_sigma:             0.00000000 (init = 0)
+    v3_gamma:             2.05178807 (init = 2.0518)
+    v3_fwhm:              4.10358867 == '1.0692*v3_gamma+sqrt(0.8664*v3_gamma**2+5.545083*v3_sigma**2)'
+    v3_height:            783.449684 == '(v3_amplitude/(max(1e-15, v3_sigma*sqrt(2*pi))))*wofz((1j*v3_gamma)/(max(1e-15, v3_sigma*sqrt(2)))).real'
+    v3_center_diff:       0.1 (fixed)
+    v3_amp_ratio:         0.5 (fixed)
+    v3_gaussian_ratio:    1 (fixed)
+    v3_lorentzian_ratio:  1 (fixed)

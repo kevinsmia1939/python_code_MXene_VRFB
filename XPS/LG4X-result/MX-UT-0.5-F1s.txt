@@ -1,0 +1,75 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/MX-UT 0p5 20Ap location U1 in image-0.6530_MXUT0p520ApF1s_F1s.txt
+
+[[Fit results]]
+
+
+	a1	a2
+amplitude	6593.6113	1034.4207	
+center	684.8791	684.0037	
+sigma	0.1223	0.1223	
+gamma	0.5772	0.5772	
+fwhm	nan	nan	
+height	nan	nan	
+fraction	nan	nan	
+skew	0.3	0.3	
+q	nan	nan	
+
+[[LG4X parameters]]
+
+[[[0], 691.0, 682.0, 1486.69, 4.5, -0.6528], [['', 1e-06, '', 10.0, 0, 0.0018480716161439759, 0, 4.277704857003073e-10, '', ''], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [0, -24261276.223937996, 0, 97661.6521971216, 0, -117.44324953711543, 0, 0.02045224433648334, 0, 2.6782597628155224e-05], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 6, '', 6], [0, 684.8791, 0, 684.0037], [0, 6593.6115, 0, 1034.4207], [2, 0.5772, 2, 0.5772], [2, 0.1223, 2, 0.1223], [0, 1.0, 0, 1.0], [2, 0.0, 2, 0.0], [2, 0.3, 2, 0.3], [2, 0.0, 2, 0.0], [2, 0.026, 2, 0.026], [2, 1.0, 2, 1.0], [2, 0.7, 2, 0.7], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 0.1, 2, 0.1], ['', 0, '', 0], [2, 0.5, 2, 0.5], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0]], [[0, 684.5, 685.5, 0, '', ''], [0, 0.0, '', 0, '', ''], [0, 0.0, 0.4, 2, '', 0.5772], [0, 0.0, 0.2659, 2, '', 0.1223], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, 0.5, '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('a1_amplitude', <Parameter 'a1_amplitude', value=6593.6115, bounds=[0.0:inf]>), ('a1_center', <Parameter 'a1_center', value=684.8791, bounds=[-inf:inf]>), ('a1_sigma', <Parameter 'a1_sigma', value=0.1223 (fixed), bounds=[0:inf]>), ('a1_skew', <Parameter 'a1_skew', value=0.3 (fixed), bounds=[-1:1]>), ('a1_gamma', <Parameter 'a1_gamma', value=0.5772, bounds=[0:inf]>), ('a1_center_diff', <Parameter 'a1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a1_amp_ratio', <Parameter 'a1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a1_gaussian_ratio', <Parameter 'a1_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a1_lorentzian_ratio', <Parameter 'a1_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a2_amplitude', <Parameter 'a2_amplitude', value=1034.4207, bounds=[0.0:inf]>), ('a2_center', <Parameter 'a2_center', value=684.0037, bounds=[-inf:inf]>), ('a2_sigma', <Parameter 'a2_sigma', value=0.1223 (fixed), bounds=[0:0.1223]>), ('a2_skew', <Parameter 'a2_skew', value=0.3 (fixed), bounds=[-1:1]>), ('a2_gamma', <Parameter 'a2_gamma', value=0.5772, bounds=[0:0.5772]>), ('a2_center_diff', <Parameter 'a2_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a2_amp_ratio', <Parameter 'a2_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a2_gaussian_ratio', <Parameter 'a2_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a2_lorentzian_ratio', <Parameter 'a2_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>)])
+
+[[Model]]
+    (Model(skewed_voigt, prefix='a1_') + Model(skewed_voigt, prefix='a2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 11
+    # data points      = 90
+    # variables        = 6
+    chi-square         = 106.276068
+    reduced chi-square = 1.26519129
+    Akaike info crit   = 26.9607409
+    Bayesian info crit = 41.9595989
+    R-squared          = 0.99999916
+[[Variables]]
+    a1_amplitude:         6593.61150 +/- 155.424430 (2.36%) (init = 6593.611)
+    a1_center:            684.879100 +/- 0.01459890 (0.00%) (init = 684.8791)
+    a1_sigma:             0.1223 (fixed)
+    a1_skew:              0.3 (fixed)
+    a1_gamma:             0.57720000 +/- 0.01760703 (3.05%) (init = 0.5772)
+    a1_center_diff:       0.1 (fixed)
+    a1_amp_ratio:         0.5 (fixed)
+    a1_gaussian_ratio:    1 (fixed)
+    a1_lorentzian_ratio:  1 (fixed)
+    a2_amplitude:         1034.42070 +/- 127.394619 (12.32%) (init = 1034.421)
+    a2_center:            684.003700 +/- 0.05206803 (0.01%) (init = 684.0037)
+    a2_sigma:             0.1223 (fixed)
+    a2_skew:              0.3 (fixed)
+    a2_gamma:             0.57720000 +/- 7.9463e-11 (0.00%) (init = 0.5772)
+    a2_center_diff:       0.1 (fixed)
+    a2_amp_ratio:         0.5 (fixed)
+    a2_gaussian_ratio:    1 (fixed)
+    a2_lorentzian_ratio:  1 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a1_amplitude, a1_center)    = -0.829
+    C(a1_amplitude, a2_amplitude) = -0.818
+    C(a1_center, a1_gamma)        = -0.798
+    C(a1_center, a2_amplitude)    = 0.793
+    C(a1_amplitude, a1_gamma)     = 0.769
+    C(a1_amplitude, a2_center)    = -0.655
+    C(a2_amplitude, a2_gamma)     = -0.624
+    C(a1_center, a2_center)       = 0.613
+    C(a2_amplitude, a2_center)    = 0.597
+    C(a1_gamma, a2_amplitude)     = -0.568
+    C(a1_amplitude, a2_gamma)     = 0.470
+    C(a1_center, a2_gamma)        = -0.462
+    C(a1_gamma, a2_center)        = -0.408
+    C(a1_gamma, a2_gamma)         = 0.310
+    C(a2_center, a2_gamma)        = -0.203

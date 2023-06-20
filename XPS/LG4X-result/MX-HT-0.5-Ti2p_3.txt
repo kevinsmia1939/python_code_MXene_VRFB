@@ -1,0 +1,108 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/MX-HT 0p5 20Ap location H1 in image_MXHT0p520ApTi2p_Ti2p.txt
+
+[[Fit results]]
+
+
+	l1	l2	l3	a4	a5	l6	l7	l8
+amplitude	7947.5073	8181.356	11727.862	14000.0	10000.0	2500.0	2000.0	415.3696	
+center	459.35	457.16	456.04	455.2	461.16	461.89	463.06	464.8	
+sigma	0.6701	0.738	0.6243	0.0045	0.0063	0.8	0.7585	0.4285	
+gamma	nan	nan	nan	0.5473	1.119	nan	nan	nan	
+fwhm	1.3402	1.476	1.2486	nan	nan	1.6	1.517	0.857	
+height	3775.2131	3528.7354	5979.649	nan	nan	994.71844	839.31415	308.55603	
+fraction	nan	nan	nan	nan	nan	nan	nan	nan	
+skew	nan	nan	nan	0.0056	0.0057	nan	nan	nan	
+q	nan	nan	nan	nan	nan	nan	nan	nan	
+
+[[LG4X parameters]]
+
+[[[0], 470.6318, 450.6318, 1486.69, 4.5, -0.6318], [['', 1e-06, '', 10.0, 2, 0.0003, 2, 1000.0, '', ''], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 1, '', 1, '', 1, '', 6, '', 6, '', 1, '', 1, '', 1], [2, 459.35, 2, 457.16, 2, 456.04, 0, 455.2, 2, 461.16, 2, 461.89, 2, 463.06, 2, 464.8], [0, 7947.5075, 0, 8181.3562, 0, 11727.8623, 0, 14000.0, 0, 10000.0, 0, 2500.0, 0, 2000.0, 0, 415.3696], [0, 0.6701, 0, 0.738, 0, 0.6243, 0, 0.5473, 0, 1.119, 0, 0.8, 0, 0.7585, 0, 0.4285], [0, 0.0002, 0, 0.0002, 0, 0.0002, 0, 0.0045, 0, 0.0063, 0, 0.0002, 0, 0.0002, 0, 0.0002], [2, 0.02, 2, 0.02, 2, 0.02, 0, 0.02, 0, 0.02, 0, 0.02, 0, 0.02, 0, 0.02], [2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [0, 0.0001, 0, 0.0001, 0, 0.0001, 0, 0.0056, 2, 0.0057, 0, 0.0002, 0, 0.0002, 0, 0.0002], [2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026, 2, 0.026], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], [2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7, 2, 0.7], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1, 2, 0.1], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5, 2, 0.5], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0], ['', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0], [2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0, 2, 1.0]], [[0, 459.0, 459.7, 0, 456.7, 457.7, 0, 455.7, 456.47, 2, 454.9, 455.5, 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', ''], [0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '', 0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('l1_amplitude', <Parameter 'l1_amplitude', value=7947.5075 (fixed), bounds=[0.0:inf]>), ('l1_center', <Parameter 'l1_center', value=459.35 (fixed), bounds=[-inf:inf]>), ('l1_sigma', <Parameter 'l1_sigma', value=0.6701 (fixed), bounds=[0:inf]>), ('l1_fwhm', <Parameter 'l1_fwhm', value=1.3402, bounds=[-inf:inf], expr='2.0000000*l1_sigma'>), ('l1_height', <Parameter 'l1_height', value=3775.2131287483207, bounds=[-inf:inf], expr='0.3183099*l1_amplitude/max(1e-15, l1_sigma)'>), ('l1_center_diff', <Parameter 'l1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('l1_amp_ratio', <Parameter 'l1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('l1_lorentzian_ratio', <Parameter 'l1_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('l2_amplitude', <Parameter 'l2_amplitude', value=8181.3562 (fixed), bounds=[0.0:inf]>), ('l2_center', <Parameter 'l2_center', value=457.16 (fixed), bounds=[-inf:inf]>), ('l2_sigma', <Parameter 'l2_sigma', value=0.738 (fixed), bounds=[0:inf]>), ('l2_fwhm', <Parameter 'l2_fwhm', value=1.476, bounds=[-inf:inf], expr='2.0000000*l2_sigma'>), ('l2_height', <Parameter 'l2_height', value=3528.7353304693497, bounds=[-inf:inf], expr='0.3183099*l2_amplitude/max(1e-15, l2_sigma)'>), ('l2_center_diff', <Parameter 'l2_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('l2_amp_ratio', <Parameter 'l2_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('l2_lorentzian_ratio', <Parameter 'l2_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('l3_amplitude', <Parameter 'l3_amplitude', value=11727.8623 (fixed), bounds=[0.0:inf]>), ('l3_center', <Parameter 'l3_center', value=456.04 (fixed), bounds=[-inf:inf]>), ('l3_sigma', <Parameter 'l3_sigma', value=0.6243 (fixed), bounds=[0:inf]>), ('l3_fwhm', <Parameter 'l3_fwhm', value=1.2486, bounds=[-inf:inf], expr='2.0000000*l3_sigma'>), ('l3_height', <Parameter 'l3_height', value=5979.648688013407, bounds=[-inf:inf], expr='0.3183099*l3_amplitude/max(1e-15, l3_sigma)'>), ('l3_center_diff', <Parameter 'l3_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('l3_amp_ratio', <Parameter 'l3_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('l3_lorentzian_ratio', <Parameter 'l3_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a4_amplitude', <Parameter 'a4_amplitude', value=14000.0 (fixed), bounds=[0.0:inf]>), ('a4_center', <Parameter 'a4_center', value=455.2 (fixed), bounds=[-inf:inf]>), ('a4_sigma', <Parameter 'a4_sigma', value=0.0045 (fixed), bounds=[0:inf]>), ('a4_skew', <Parameter 'a4_skew', value=0.0056 (fixed), bounds=[-1:1]>), ('a4_gamma', <Parameter 'a4_gamma', value=0.5473 (fixed), bounds=[0:inf]>), ('a4_center_diff', <Parameter 'a4_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a4_amp_ratio', <Parameter 'a4_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a4_gaussian_ratio', <Parameter 'a4_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a4_lorentzian_ratio', <Parameter 'a4_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a5_amplitude', <Parameter 'a5_amplitude', value=10000.0 (fixed), bounds=[0.0:inf]>), ('a5_center', <Parameter 'a5_center', value=461.16 (fixed), bounds=[-inf:inf]>), ('a5_sigma', <Parameter 'a5_sigma', value=0.0063 (fixed), bounds=[0:inf]>), ('a5_skew', <Parameter 'a5_skew', value=0.0057 (fixed), bounds=[-1:1]>), ('a5_gamma', <Parameter 'a5_gamma', value=1.119 (fixed), bounds=[0:inf]>), ('a5_center_diff', <Parameter 'a5_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a5_amp_ratio', <Parameter 'a5_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a5_gaussian_ratio', <Parameter 'a5_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a5_lorentzian_ratio', <Parameter 'a5_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('l6_amplitude', <Parameter 'l6_amplitude', value=2500.0 (fixed), bounds=[0.0:inf]>), ('l6_center', <Parameter 'l6_center', value=461.89 (fixed), bounds=[-inf:inf]>), ('l6_sigma', <Parameter 'l6_sigma', value=0.8 (fixed), bounds=[0:inf]>), ('l6_fwhm', <Parameter 'l6_fwhm', value=1.6, bounds=[-inf:inf], expr='2.0000000*l6_sigma'>), ('l6_height', <Parameter 'l6_height', value=994.7184374999998, bounds=[-inf:inf], expr='0.3183099*l6_amplitude/max(1e-15, l6_sigma)'>), ('l6_center_diff', <Parameter 'l6_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('l6_amp_ratio', <Parameter 'l6_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('l6_lorentzian_ratio', <Parameter 'l6_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('l7_amplitude', <Parameter 'l7_amplitude', value=2000.0 (fixed), bounds=[0.0:inf]>), ('l7_center', <Parameter 'l7_center', value=463.06 (fixed), bounds=[-inf:inf]>), ('l7_sigma', <Parameter 'l7_sigma', value=0.7585 (fixed), bounds=[0:inf]>), ('l7_fwhm', <Parameter 'l7_fwhm', value=1.517, bounds=[-inf:inf], expr='2.0000000*l7_sigma'>), ('l7_height', <Parameter 'l7_height', value=839.3141727092947, bounds=[-inf:inf], expr='0.3183099*l7_amplitude/max(1e-15, l7_sigma)'>), ('l7_center_diff', <Parameter 'l7_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('l7_amp_ratio', <Parameter 'l7_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('l7_lorentzian_ratio', <Parameter 'l7_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('l8_amplitude', <Parameter 'l8_amplitude', value=415.3696 (fixed), bounds=[0.0:inf]>), ('l8_center', <Parameter 'l8_center', value=464.8 (fixed), bounds=[-inf:inf]>), ('l8_sigma', <Parameter 'l8_sigma', value=0.4285 (fixed), bounds=[0:inf]>), ('l8_fwhm', <Parameter 'l8_fwhm', value=0.857, bounds=[-inf:inf], expr='2.0000000*l8_sigma'>), ('l8_height', <Parameter 'l8_height', value=308.55602296158696, bounds=[-inf:inf], expr='0.3183099*l8_amplitude/max(1e-15, l8_sigma)'>), ('l8_center_diff', <Parameter 'l8_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('l8_amp_ratio', <Parameter 'l8_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('l8_lorentzian_ratio', <Parameter 'l8_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>)])
+
+[[Model]]
+    (((((((Model(lorentzian, prefix='l1_') + Model(lorentzian, prefix='l2_')) + Model(lorentzian, prefix='l3_')) + Model(skewed_voigt, prefix='a4_')) + Model(skewed_voigt, prefix='a5_')) + Model(lorentzian, prefix='l6_')) + Model(lorentzian, prefix='l7_')) + Model(lorentzian, prefix='l8_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 0
+    # data points      = 201
+    # variables        = 0
+    chi-square         = 40053082.0
+    reduced chi-square = 199269.065
+    Akaike info crit   = 2452.68467
+    Bayesian info crit = 2452.68467
+    R-squared          = 0.98011236
+##  Warning: uncertainties could not be estimated:
+[[Variables]]
+    l1_amplitude:         7947.507 (fixed)
+    l1_center:            459.35 (fixed)
+    l1_sigma:             0.6701 (fixed)
+    l1_fwhm:              1.34020000 == '2.0000000*l1_sigma'
+    l1_height:            3775.21313 == '0.3183099*l1_amplitude/max(1e-15, l1_sigma)'
+    l1_center_diff:       0.1 (fixed)
+    l1_amp_ratio:         0.5 (fixed)
+    l1_lorentzian_ratio:  1 (fixed)
+    l2_amplitude:         8181.356 (fixed)
+    l2_center:            457.16 (fixed)
+    l2_sigma:             0.738 (fixed)
+    l2_fwhm:              1.47600000 == '2.0000000*l2_sigma'
+    l2_height:            3528.73533 == '0.3183099*l2_amplitude/max(1e-15, l2_sigma)'
+    l2_center_diff:       0.1 (fixed)
+    l2_amp_ratio:         0.5 (fixed)
+    l2_lorentzian_ratio:  1 (fixed)
+    l3_amplitude:         11727.86 (fixed)
+    l3_center:            456.04 (fixed)
+    l3_sigma:             0.6243 (fixed)
+    l3_fwhm:              1.24860000 == '2.0000000*l3_sigma'
+    l3_height:            5979.64869 == '0.3183099*l3_amplitude/max(1e-15, l3_sigma)'
+    l3_center_diff:       0.1 (fixed)
+    l3_amp_ratio:         0.5 (fixed)
+    l3_lorentzian_ratio:  1 (fixed)
+    a4_amplitude:         14000 (fixed)
+    a4_center:            455.2 (fixed)
+    a4_sigma:             0.0045 (fixed)
+    a4_skew:              0.0056 (fixed)
+    a4_gamma:             0.5473 (fixed)
+    a4_center_diff:       0.1 (fixed)
+    a4_amp_ratio:         0.5 (fixed)
+    a4_gaussian_ratio:    1 (fixed)
+    a4_lorentzian_ratio:  1 (fixed)
+    a5_amplitude:         10000 (fixed)
+    a5_center:            461.16 (fixed)
+    a5_sigma:             0.0063 (fixed)
+    a5_skew:              0.0057 (fixed)
+    a5_gamma:             1.119 (fixed)
+    a5_center_diff:       0.1 (fixed)
+    a5_amp_ratio:         0.5 (fixed)
+    a5_gaussian_ratio:    1 (fixed)
+    a5_lorentzian_ratio:  1 (fixed)
+    l6_amplitude:         2500 (fixed)
+    l6_center:            461.89 (fixed)
+    l6_sigma:             0.8 (fixed)
+    l6_fwhm:              1.60000000 == '2.0000000*l6_sigma'
+    l6_height:            994.718437 == '0.3183099*l6_amplitude/max(1e-15, l6_sigma)'
+    l6_center_diff:       0.1 (fixed)
+    l6_amp_ratio:         0.5 (fixed)
+    l6_lorentzian_ratio:  1 (fixed)
+    l7_amplitude:         2000 (fixed)
+    l7_center:            463.06 (fixed)
+    l7_sigma:             0.7585 (fixed)
+    l7_fwhm:              1.51700000 == '2.0000000*l7_sigma'
+    l7_height:            839.314173 == '0.3183099*l7_amplitude/max(1e-15, l7_sigma)'
+    l7_center_diff:       0.1 (fixed)
+    l7_amp_ratio:         0.5 (fixed)
+    l7_lorentzian_ratio:  1 (fixed)
+    l8_amplitude:         415.3696 (fixed)
+    l8_center:            464.8 (fixed)
+    l8_sigma:             0.4285 (fixed)
+    l8_fwhm:              0.85700000 == '2.0000000*l8_sigma'
+    l8_height:            308.556023 == '0.3183099*l8_amplitude/max(1e-15, l8_sigma)'
+    l8_center_diff:       0.1 (fixed)
+    l8_amp_ratio:         0.5 (fixed)
+    l8_lorentzian_ratio:  1 (fixed)

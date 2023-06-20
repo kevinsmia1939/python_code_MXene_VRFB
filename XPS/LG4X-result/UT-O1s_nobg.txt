@@ -1,0 +1,60 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/UT 18 Ap location T1 in image_UT18ApO1s_O1s.txt
+
+[[Fit results]]
+
+bg_shirley_k	4.597131120220865e-09
+bg_shirley_const	156.122548013623
+
+	v1
+amplitude	12096.951	
+center	532.79004	
+sigma	0.83663553	
+gamma	0.19035071	
+fwhm	2.1815836	
+height	4854.1675	
+fraction	nan	
+skew	nan	
+q	nan	
+
+[[LG4X parameters]]
+
+[[[100], 540.6482, 525.6482, 1486.69, 4.5, -0.6482], [['', 1e-06, '', 10.0, 0, 4.597131120220865e-09, 0, 156.122548013623, '', ''], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [0, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 2], [0, 532.7901], [0, 12096.9515], [0, 0.1904], [0, 0.8366], [2, 0.02], [2, 0.0], [0, 0.1415], [2, 0.0], [2, 0.026], [2, 1.0], [2, 0.7], [2, 1.0], ['', 0], [2, 0.1], ['', 0], [2, 0.5], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0], ['', 0], [2, 1.0]], [[0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', ''], [0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('bg_shirley_k', <Parameter 'bg_shirley_k', value=4.597131120220865e-09, bounds=[0:inf]>), ('bg_shirley_const', <Parameter 'bg_shirley_const', value=156.1225524477252, bounds=[0:inf]>), ('v1_amplitude', <Parameter 'v1_amplitude', value=14329.9476, bounds=[0.0:inf]>), ('v1_center', <Parameter 'v1_center', value=532.7909, bounds=[-inf:inf]>), ('v1_sigma', <Parameter 'v1_sigma', value=0.6542, bounds=[0:inf]>), ('v1_gamma', <Parameter 'v1_gamma', value=0.5332, bounds=[0:inf]>), ('v1_fwhm', <Parameter 'v1_fwhm', value=2.1885816063359327, bounds=[-inf:inf], expr='1.0692*v1_gamma+sqrt(0.8664*v1_gamma**2+5.545083*v1_sigma**2)'>), ('v1_height', <Parameter 'v1_height', value=5055.82934697416, bounds=[-inf:inf], expr='(v1_amplitude/(max(1e-15, v1_sigma*sqrt(2*pi))))*wofz((1j*v1_gamma)/(max(1e-15, v1_sigma*sqrt(2)))).real'>), ('v1_center_diff', <Parameter 'v1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('v1_amp_ratio', <Parameter 'v1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('v1_gaussian_ratio', <Parameter 'v1_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('v1_lorentzian_ratio', <Parameter 'v1_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>)])
+
+[[Model]]
+    (Model(shirley, prefix='bg_shirley_') + Model(voigt, prefix='v1_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 43
+    # data points      = 151
+    # variables        = 6
+    chi-square         = 876934.244
+    reduced chi-square = 6047.82237
+    Akaike info crit   = 1320.70303
+    Bayesian info crit = 1338.80670
+    R-squared          = 0.99703317
+##  Warning: uncertainties could not be estimated:
+    bg_shirley_k:         at initial value
+    bg_shirley_k:         at boundary
+    bg_shirley_const:     at initial value
+    v1_center:            at initial value
+[[Variables]]
+    bg_shirley_k:         4.5971e-09 (init = 4.597131e-09)
+    bg_shirley_const:     156.122548 (init = 156.1226)
+    v1_amplitude:         12096.9515 (init = 14329.95)
+    v1_center:            532.790051 (init = 532.7909)
+    v1_sigma:             0.83663555 (init = 0.6542)
+    v1_gamma:             0.19035071 (init = 0.5332)
+    v1_fwhm:              2.18158354 == '1.0692*v1_gamma+sqrt(0.8664*v1_gamma**2+5.545083*v1_sigma**2)'
+    v1_height:            4854.16752 == '(v1_amplitude/(max(1e-15, v1_sigma*sqrt(2*pi))))*wofz((1j*v1_gamma)/(max(1e-15, v1_sigma*sqrt(2)))).real'
+    v1_center_diff:       0.1 (fixed)
+    v1_amp_ratio:         0.5 (fixed)
+    v1_gaussian_ratio:    1 (fixed)
+    v1_lorentzian_ratio:  1 (fixed)

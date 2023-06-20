@@ -1,0 +1,77 @@
+LG4X: LMFit GUI for XPS curve fitting v2.0.4
+
+[[Data file]]
+
+/home/kevin/Desktop/KTH/master_thesis/XPS/Casa format/MX-UT 0p1 20Ap location M1 in image_MXUT0p120ApCl2p_Cl2p.txt
+
+[[Fit results]]
+
+bg_shirley_k	2.043518021466184e-09
+bg_shirley_const	39.16368513941471
+
+	a1	a2
+amplitude	613.4211	395.67303	
+center	199.0168	200.60594	
+sigma	0.3615	0.3615	
+gamma	0.1958	0.3102788	
+fwhm	nan	nan	
+height	nan	nan	
+fraction	nan	nan	
+skew	0.9	0.9	
+q	nan	nan	
+
+[[LG4X parameters]]
+
+[[[100], 208.4255, 195.4255, 1486.69, 4.5, -0.4255], [['', 1e-06, '', 10.0, 0, 2.043518021466184e-09, 0, 39.16368513941471, '', ''], [2, 2866.0, '', 1643.0, '', 1.0, '', 1.0, '', 50.0], [2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0, 2, 0.0], [2, 0.0, 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, ''], [0, '', 0, '', 0, '', 0, '', 0, '']], [['', 6, '', 6], [0, 199.0168, 0, 200.6059], [0, 613.4211, 0, 395.673], [2, 0.1958, 2, 0.3103], [2, 0.3615, 2, 0.3615], [2, 0.02, 2, 0.02], [2, 0.0, 2, 0.0], [0, 0.9, 0, 0.9], [2, 0.0, 2, 0.0], [2, 0.026, 2, 0.026], [2, 1.0, 2, 1.0], [2, 0.7, 2, 0.7], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 0.1, 2, 0.1], ['', 0, '', 0], [2, 0.5, 2, 0.5], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0], ['', 0, '', 0], [2, 1.0, 2, 1.0]], [[0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [2, 0.1958, '', 2, 0.1958, ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [2, 0.9, '', 2, 0.9, ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', ''], [0, '', '', 0, '', '']]]
+
+[[lmfit parameters]]
+
+Parameters([('bg_shirley_k', <Parameter 'bg_shirley_k', value=2.043518021466184e-09, bounds=[0:inf]>), ('bg_shirley_const', <Parameter 'bg_shirley_const', value=39.16351937354736, bounds=[0:inf]>), ('a1_amplitude', <Parameter 'a1_amplitude', value=613.4212, bounds=[0.0:inf]>), ('a1_center', <Parameter 'a1_center', value=199.0168, bounds=[-inf:inf]>), ('a1_sigma', <Parameter 'a1_sigma', value=0.3615 (fixed), bounds=[0:inf]>), ('a1_skew', <Parameter 'a1_skew', value=0.9, bounds=[0.9:1]>), ('a1_gamma', <Parameter 'a1_gamma', value=0.1958, bounds=[0.1958:inf]>), ('a1_center_diff', <Parameter 'a1_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a1_amp_ratio', <Parameter 'a1_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a1_gaussian_ratio', <Parameter 'a1_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a1_lorentzian_ratio', <Parameter 'a1_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a2_amplitude', <Parameter 'a2_amplitude', value=395.6753, bounds=[0.0:inf]>), ('a2_center', <Parameter 'a2_center', value=200.6059, bounds=[-inf:inf]>), ('a2_sigma', <Parameter 'a2_sigma', value=0.3615 (fixed), bounds=[0:inf]>), ('a2_skew', <Parameter 'a2_skew', value=0.9, bounds=[0.9:1]>), ('a2_gamma', <Parameter 'a2_gamma', value=0.3103, bounds=[0.1958:inf]>), ('a2_center_diff', <Parameter 'a2_center_diff', value=0.1 (fixed), bounds=[-inf:inf]>), ('a2_amp_ratio', <Parameter 'a2_amp_ratio', value=0.5 (fixed), bounds=[0:inf]>), ('a2_gaussian_ratio', <Parameter 'a2_gaussian_ratio', value=1.0 (fixed), bounds=[0:inf]>), ('a2_lorentzian_ratio', <Parameter 'a2_lorentzian_ratio', value=1.0 (fixed), bounds=[0:inf]>)])
+
+[[Model]]
+    ((Model(shirley, prefix='bg_shirley_') + Model(skewed_voigt, prefix='a1_')) + Model(skewed_voigt, prefix='a2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 23
+    # data points      = 131
+    # variables        = 10
+    chi-square         = 61082.4948
+    reduced chi-square = 504.814007
+    Akaike info crit   = 824.966610
+    Bayesian info crit = 853.718583
+    R-squared          = 0.97543839
+##  Warning: uncertainties could not be estimated:
+    bg_shirley_k:         at initial value
+    bg_shirley_k:         at boundary
+    bg_shirley_const:     at initial value
+    a1_amplitude:         at initial value
+    a1_center:            at initial value
+    a1_skew:              at initial value
+    a1_skew:              at boundary
+    a1_gamma:             at initial value
+    a1_gamma:             at boundary
+    a2_amplitude:         at initial value
+    a2_center:            at initial value
+    a2_skew:              at initial value
+    a2_skew:              at boundary
+[[Variables]]
+    bg_shirley_k:         2.0435e-09 (init = 2.043518e-09)
+    bg_shirley_const:     39.1636851 (init = 39.16352)
+    a1_amplitude:         613.421067 (init = 613.4212)
+    a1_center:            199.016801 (init = 199.0168)
+    a1_sigma:             0.3615 (fixed)
+    a1_skew:              0.90000000 (init = 0.9)
+    a1_gamma:             0.19580000 (init = 0.1958)
+    a1_center_diff:       0.1 (fixed)
+    a1_amp_ratio:         0.5 (fixed)
+    a1_gaussian_ratio:    1 (fixed)
+    a1_lorentzian_ratio:  1 (fixed)
+    a2_amplitude:         395.673038 (init = 395.6753)
+    a2_center:            200.605942 (init = 200.6059)
+    a2_sigma:             0.3615 (fixed)
+    a2_skew:              0.90000000 (init = 0.9)
+    a2_gamma:             0.31027880 (init = 0.3103)
+    a2_center_diff:       0.1 (fixed)
+    a2_amp_ratio:         0.5 (fixed)
+    a2_gaussian_ratio:    1 (fixed)
+    a2_lorentzian_ratio:  1 (fixed)
